@@ -1,0 +1,12 @@
+﻿//icon字体
+@mixin icon-font($type, $size: 20px, $color: #000) {
+    &:before {
+        font-family: "Ionicons";
+        display: inline-block;
+        vertical-align: middle;
+        content: "#{$type}";
+        font-weight: normal;
+        font-size: $size;
+        color: $color;
+    }
+}

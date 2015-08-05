@@ -1,0 +1,19 @@
+﻿$bgcolor: #e6e8e7;
+// $bgcolor: #f8f8f8;
+$green_val: #3cc482;
+$gray_val: #cacdcb;
+
+@mixin font_icon {
+    font-family: "Ionicons";
+    font-weight: normal;
+}
+
+@import "ionic/ionic.scss";
+
+
+@import "sass/common.border.scss";
+@import "sass/common.reset.scss";
+@import "sass/common.color.scss";
+@import "sass/common.icon.scss";
+
+

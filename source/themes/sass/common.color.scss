@@ -1,0 +1,12 @@
+﻿.color_green {
+	color: #3cc482 !important;
+}
+@mixin green {
+	color: #3cc482;
+}
+@mixin gray {
+	color: #cacdcb;
+}
+
+$green_val: #3cc482;
+$gray_val: #cacdcb;
